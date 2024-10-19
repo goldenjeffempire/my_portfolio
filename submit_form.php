@@ -1,21 +1,22 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Collect form data
+    $to = 'jefferyemuodafevware7@gmail.com';  // Recipient's email
+    $subject = 'Inquiry About My Portfolio';   // Subject
     $name = htmlspecialchars($_POST['name']);
     $email = htmlspecialchars($_POST['email']);
     $message = htmlspecialchars($_POST['message']);
+    $headers = 'From: jeffemuodafe124@gmail.com' . "\r\n" .
+               'Reply-To: jeffemuodafe124@gmail.com';  // Your email
 
-    // Here, you can use mail() function to send an email
-    $to = "jeffemuodafe124@gmail.com";
-    $subject = "New Contact Form Submission";
-    $body = "Name: $name\nEmail: $email\nMessage: $message";
-    $headers = "From: $email";
+    // Construct the message
+    $fullMessage = "Name: $name\nEmail: $email\nMessage:\n$message";
 
-    if (mail($to, $subject, $body, $headers)) {
+    // Send the email
+    if (mail($to, $subject, $fullMessage, $headers)) {
         echo "Message sent successfully.";
     } else {
         echo "Message could not be sent.";
     }
-} else {
-    echo "Invalid request.";
 }
 ?>
