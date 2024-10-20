@@ -55,7 +55,7 @@ If you have any questions, suggestions, or collaboration ideas, feel free to rea
 - **Email**: jeffemuodafe124@gmail.com
 - **GitHub**: [GitHub Profile](https://github.com/goldenjeffempire)
 - **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/jeffery-emuodafevware)
-- **Twitter**: [https://x.com/goldenjeffemp]
+- **Twitter**: [Twitter Profilr](https://www.twitter.com/goldenjeffemp)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
