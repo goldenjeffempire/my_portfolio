@@ -1,10 +1,22 @@
 <?php
-$to = 'jefferyemuodafevware7@gmail.com';  // Recipient's email
-$subject = 'Inquiry About My Portfolio';   // Subject of the email
-$message = 'Hello, I would love to share my portfolio with you and hear your thoughts!';  // Body of the email
-$headers = 'From: jeffemuodafe124@gmail.com' . "\r\n" .  // Your email address
-           'Reply-To: jeffemuodafe124@gmail.com';  // Your email address
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Collect form data
+    $to = 'jefferyemuodafevware7@gmail.com';  // Recipient's email
+    $subject = 'Inquiry About My Portfolio';   // Subject
+    $name = htmlspecialchars($_POST['name']);
+    $email = htmlspecialchars($_POST['email']);
+    $message = htmlspecialchars($_POST['message']);
+    $headers = 'From: jeffemuodafe124@gmail.com' . "\r\n" .
+               'Reply-To: jeffemuodafe124@gmail.com';  // Your email
 
-// Send the email
-mail($to, $subject, $message, $headers);
+    // Construct the message
+    $fullMessage = "Name: $name\nEmail: $email\nMessage: $message";
+
+    // Send the email
+    if (mail($to, $subject, $fullMessage, $headers)) {
+        echo "Message sent successfully.";
+    } else {
+        echo "Message could not be sent.";
+    }
+}
 ?>

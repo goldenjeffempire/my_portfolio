@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                'Reply-To: jeffemuodafe124@gmail.com';  // Your email
 
     // Construct the message
-    $fullMessage = "Name: $name\nEmail: $email\nMessage: $message";
+    $fullMessage = "Name: $name\nEmail: $email\nMessage:\n$message";
 
     // Send the email
     if (mail($to, $subject, $fullMessage, $headers)) {
