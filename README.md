@@ -52,9 +52,10 @@ To run the website locally, follow these steps:
 ## Contact
 If you have any questions, suggestions, or collaboration ideas, feel free to reach out to me:
 
-- **Email**: yourname@email.com
-- **GitHub**: [GitHub Profile](https://github.com/yourusername)
-- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/yourusername)
+- **Email**: jeffemuodafe124@gmail.com
+- **GitHub**: [GitHub Profile](https://github.com/goldenjeffempire)
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/jeffery-emuodafevware)
+- **Twitter**: [https://x.com/goldenjeffemp]
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
