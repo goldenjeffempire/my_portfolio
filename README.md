@@ -40,3 +40,21 @@ To run the website locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/my_portfolio.git
+
+## Usage
+- After setting up, you can customize the content by modifying the following files:
+  - **`index.html`**: Update the content of sections such as About Me, Projects, Skills, and Testimonials.
+  - **`style.css`**: Modify the styling of the website, including fonts, colors, and layout.
+  - **`submit_form.php`**: Configure the form submission functionality to handle inquiries from the contact form.
+
+- Once the changes are made, you can test the website by opening `index.html` in your browser or deploying it on platforms like Netlify for a live version.
+
+## Contact
+If you have any questions, suggestions, or collaboration ideas, feel free to reach out to me:
+
+- **Email**: yourname@email.com
+- **GitHub**: [GitHub Profile](https://github.com/yourusername)
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/yourusername)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
