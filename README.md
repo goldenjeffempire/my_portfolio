@@ -15,7 +15,7 @@ Welcome to my personal portfolio website! This is a simple and modern website de
 - [License](#license)
 
 ## Live Demo
-You can view the live demo of the website here: [Portfolio Live Site](https://your-portfolio-url.netlify.app)
+You can view the live demo of the website here: [Portfolio Live Site]()
 
 ## Features
 - **Responsive Design**: The website is fully responsive and looks great on mobile, tablet, and desktop devices.
@@ -55,7 +55,7 @@ If you have any questions, suggestions, or collaboration ideas, feel free to rea
 - **Email**: jeffemuodafe124@gmail.com
 - **GitHub**: [GitHub Profile](https://github.com/goldenjeffempire)
 - **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/jeffery-emuodafevware)
-- **Twitter**: [Twitter Profilr](https://www.twitter.com/goldenjeffemp)
+- **Twitter**: [Twitter Profile](https://www.twitter.com/goldenjeffemp)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
